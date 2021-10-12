@@ -15,18 +15,31 @@ performed different operations or filters based on the color and aiming to have 
 each color, being the following the filters and operations applied per color:
 
 • Blue segmentation
+
   o Median blur
+  
   o Gray scale
+  
   o Binary threshold
+  
   o Dilating
+  
   o Eroding
+  
 • Red segmentation
+
   o Median Blur
+  
   o Gray Scale
+  
   o Binary threshold
+  
 • White segmentation
+
   o Gray scale
+  
   o Binary threshold
+  
   
 Once applied the operations mentioned above, for each color there is applied the function 
 cv.findcontours() for, as its name says, find the contours representing the shapes on each color 
